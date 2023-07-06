@@ -1,1 +1,6 @@
-node_modules/
+# Dependency Directories
+/node_modules
+
+
+# Build files
+/build
