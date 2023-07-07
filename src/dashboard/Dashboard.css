@@ -1,0 +1,237 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--white);
+}
+
+.dashboard-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 90%;
+
+    background-color: var(--light-gray);
+}
+
+.dashboard-body .left-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 45%;
+    height: 100%;
+    margin-right: 5%;
+    
+    flex: none;
+    order: 0;
+}
+
+.dashboard-body .right-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 55%;
+    height: 100%;
+    margin-left: 5%;
+    
+    flex: none;
+    order: 1;
+}
+
+.dashboard-body .left-row .visitor-count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    height: 30%;
+    margin-left: 5vw;
+
+    background-color: var(--white);
+}
+
+.visitor-count .count {
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vh;
+    line-height: 100%;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.visitor-count .data-type {
+    width: 100%;
+    height: 25%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    line-height: 100%;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.visitor-count .descriptor {
+    width: 100%;
+    height: 25%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    line-height: 100%;
+    text-align: center;
+    color: var(--light-blue);
+}
+
+.dashboard-body .left-row .access-point-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    height: 60%;
+    margin-left: 5vw;
+    margin-top: 10%;
+
+    background-color: var(--white);
+}
+
+.access-point-list table {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+
+    border: solid 3px var(--light-blue);
+
+    background-color: var(--white);
+
+    border-spacing: 0;
+}
+
+.access-point-list thead {
+    width: 100%;
+    height: 10%;
+    position: sticky;
+}
+
+.access-point-list tbody {
+    width: 100%;
+    height: 70%;
+    overflow: auto;
+}
+
+.access-point-list tr {
+
+    width: 100%;
+    height: 10%;
+}
+
+.access-point-list th {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    line-height: 100%;
+    text-align: center;
+    color: var(--dark-blue);
+    text-align: center;
+}
+
+.access-point-list button {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    line-height: 100%;
+    text-align: center;
+    color: var(--dark-blue);
+    text-align: center;
+
+    background-color: var(--white);
+    border: solid 3px var(--light-blue);
+    padding: 0;
+}
+
+.dashboard-body .right-row .active-addresses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin-right: 5vw;
+    overflow: auto;
+
+    background-color: var(--white);
+}
+
+.dashboard-body .right-row .analytics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    margin-top: 10%;
+    margin-right: 5vw;
+
+    background-color: var(--white);
+}
+
+.active-addresses table {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 3px var(--light-blue);
+
+    background-color: var(--white);
+
+    border-spacing: 0;
+}
+
+.active-addresses thead {
+    width: 100%;
+    height: 10%;
+    position: sticky;
+}
+
+.active-addresses tbody {
+    width: 100%;
+    height: 70%;
+}
+
+.active-addresses tr {
+
+    width: 100%;
+    height: 10%;
+}
+
+.active-addresses th {
+    width: 50%;
+    height: 100%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    line-height: 100%;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.analytics img {
+    width: 100%;
+    height: 100%;
+}

@@ -5,7 +5,7 @@ const Navbar: FC = () => {
     return (
         <div className="navbar">
           <div className="row-left">
-            <a href="/" className="col-left">BSM Visitor Tracker</a>
+            <a href="/" className="col-left">BMS Visitor Tracker</a>
           </div>
           <div className="row-right">
             <a href="/dashboard" className="col-right">Dashboard</a>
