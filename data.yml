@@ -1,16 +1,17 @@
 devices:
-  mac_addr: "AB:CD:EF:12:34:56"
-    timestamp: "2023-07-06 14:25:30"
-    access_point: "AP1"
-  mac_addr: "98:76:54:32:10:AA"
-    timestamp: "2023-07-06 14:25:45"
-    access_point: "AP2"
-  mac_addr: "AB:CD:EF:12:34:56"
-    timestamp: "2023-07-06 14:26:02"
-    access_point: "AP3"
-  mac_addr: "12:34:56:78:9A:BC"
-    timestamp: "2023-07-06 14:26:12"
-    access_point: "AP1"
-  mac_addr: "AB:CD:EF:12:34:56 "
-    timestamp: "2023-07-06 14:26:30"
-    access_point: "AP2"
+- mac_addr1: AB:CD:EF:12:34:56
+  timestamp: 
+  - t1: '2023-07-06 14:25:30'
+    access_point: AP1
+  - t2: '2023-07-06 14:26:02'
+    access_point: AP3
+  - t3: '2023-07-06 14:26:30'
+    access_point: AP2
+- mac_addr2: 98:76:54:32:10:AA
+  timestamp: 
+  - t1: '2023-07-06 14:25:45'
+    access_point: AP2
+- mac_addr3: 12:34:56:78:9A:BC
+  timestamp: 
+  - t1: '2023-07-06 14:26:12'
+    access_point: AP1
